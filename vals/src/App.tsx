@@ -1,4 +1,5 @@
-import { useState } from "react";
+// Page1.tsx
+import React, { useState } from "react";
 import "./App.css";
 
 const phrases: string[] = [
@@ -20,7 +21,7 @@ const phrases: string[] = [
   "You're breaking my heart ;(",
 ];
 
-function App(): JSX.Element {
+function Page1(): JSX.Element {
   const [noCount, setCount] = useState<number>(0);
   const [yesPressed, setYesPressed] = useState<boolean>(false);
   const yesButtonSize: number = noCount * 20 + 16;
@@ -78,5 +79,4 @@ function App(): JSX.Element {
   );
 }
 
-export default App;
-
+export default Page1;
