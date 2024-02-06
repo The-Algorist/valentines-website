@@ -62,13 +62,14 @@ function App(): JSX.Element {
               style={{ fontSize: yesButtonSize }}
               onClick={() => setYesPressed(true)}
             >
-              Yes
+              Yes 😍
             </button>
+            <div style={{ width: '10px' }} /> {/* Add space between buttons */}
             <button
               onClick={handleNoClick}
               className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
             >
-              {noCount === 0 ? "No" : getNoButtonText()}
+              {noCount === 0 ? "No" : getNoButtonText()} 😢
             </button>
           </div>
         </>
@@ -78,3 +79,4 @@ function App(): JSX.Element {
 }
 
 export default App;
+
