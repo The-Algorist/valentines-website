@@ -1,0 +1,48 @@
+/* Page1.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Inherit background animation */
+    background: var(--gradient-background);
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .message {
+    font-family: 'cursive', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  .button {
+    margin-top: 20px;
+  }
+  
+  .arrow-icon {
+    font-size: 32px;
+  }
+  
+  
+  .message {
+    font-family: 'cursive', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  .button {
+    margin-top: 20px;
+  }
+  
