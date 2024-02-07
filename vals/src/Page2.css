@@ -94,16 +94,6 @@ body {
   background-color: #d32f2f;
 }
 
-/* Emoji styles for Yes button */
-.yes-button::after {
-  content: ' 😍'; /* Sexy eyes emoji */
-}
-
-/* Emoji styles for No button */
-.no-button::after {
-  content: ' 😢'; /* Sad emoji */
-}
-
 /* Add space between buttons */
 .btn-container > div {
   width: 10px;
