@@ -8,16 +8,22 @@
 }
 
 .card {
+  background-image: url('/images/abstract-letter.jpg');
+  background-size: cover;
+  background-position: center;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 50px;
+  max-width: 800px;
   width: 80%;
   text-align: center;
-  margin: 0 auto;
+  margin: 50px auto;
 }
-
+.message {
+  margin-bottom: 20px;
+  font-family: 'Caveat', cursive;
+}
 .arrow-icon {
   font-size: 48px;
   position: absolute;
