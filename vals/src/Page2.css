@@ -98,3 +98,16 @@ body {
 .btn-container > div {
   width: 10px;
 }
+
+/* Back arrow styles */
+.back-arrow-container {
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.back-arrow {
+  color: #000; /* Arrow color */
+}
+
+.arrow-icon {
+  font-size: 24px; /* Arrow size */
+}

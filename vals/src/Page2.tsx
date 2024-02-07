@@ -1,5 +1,7 @@
 // Page2.tsx
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Import Link from React Router
+import { FaArrowLeft } from "react-icons/fa"; // Import arrow icon
 import "./Page2.css";
 
 const phrases: string[] = [
@@ -72,6 +74,12 @@ function Page2(): JSX.Element {
             >
               {noCount === 0 ? "No" : getNoButtonText()} 😢
             </button>
+          </div>
+          {/* Add arrow to go back to Page 1 */}
+          <div className="back-arrow-container">
+            <Link to="/" className="back-arrow">
+              <FaArrowLeft className="arrow-icon" />
+            </Link>
           </div>
         </>
       )}
